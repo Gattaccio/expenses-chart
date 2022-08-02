@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <div class="text">
+        <p class="balance">My Balance</p>
+        <p class="amount">$ 921.48</p>
+      </div>
+      <div class="icon">
+        <div class="empty"></div>
+        <div class="full"></div>
+      </div>
+    </div>
+
+    <div class="detail">
+      <div class="title">
+        Spending - Last 7 days
+      </div>
+      <div class="graph">
+        <div class="data" id="data1">
+          <div class="value" id="value1"></div>
+          <div class="bar"></div>
+          <p>mon</p>
+        </div>
+        <div class="data" id="data2">
+          <div class="value" id="value2"></div>
+          <div class="bar"></div>
+          <p>tue</p>
+        </div>
+        <div class="data" id="data3">
+          <div class="value" id="value3"></div>
+          <div class="bar"></div>
+          <p>wed</p>
+        </div>
+        <div class="data" id="data4">
+          <div class="value" id="value4"></div>
+          <div class="bar"></div>
+          <p>thu</p>
+        </div>
+        <div class="data" id="data5">
+          <div class="value" id="value5"></div>
+          <div class="bar"></div>
+          <p>fri</p>
+        </div>
+        <div class="data" id="data6">
+          <div class="value" id="value6"></div>
+          <div class="bar"></div>
+          <p>sat</p>
+        </div>
+        <div class="data" id="data7">
+          <div class="value" id="value7"></div>
+          <div class="bar"></div>
+          <p>sun</p>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="total">
+        <div class="import">
+          <span>Total this month</span><br>
+          $ 478.33
+        </div>
+        <div class="variation">
+          <span>+2.4%</span><br>
+          from last month
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
