@@ -110,32 +110,11 @@ div[class^='bar']:hover, div[class*='bar']:hover{
     opacity: .8;
 }
 
-.bar1 {
-    height: 35px;
-}
-.bar2 {
-    height: 70px;
-}
-.bar3 {
-    height: 104px;
-    background-color: var(--Cyan) !important;
-}
 .data p {
     text-align: center;
     font-size: .9rem;
 }
-.bar4 {
-    height: 62px;
-}
-.bar5 {
-    height: 46px;
-}
-.bar6 {
-    height: 86px;
-}
-.bar7 {
-    height: 50px;
-}
+
 .line {
     background-color: var(--Medium-brown);
     height: 2px;

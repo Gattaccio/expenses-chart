@@ -8,6 +8,9 @@ async function createData() {
   for(let i = 0; i< databar.length; i++){
     databar[i].getElementsByClassName("bar")[0].style.height = (data[i].amount) * 2 +"px";
     databar[i].getElementsByClassName("value")[0].innerHTML = "$"+(data[i].amount);
+    if (i==2) {
+        databar[i].getElementsByClassName("bar")[0].style.background = "#76b5bc";
+    }
   }
 }
 
